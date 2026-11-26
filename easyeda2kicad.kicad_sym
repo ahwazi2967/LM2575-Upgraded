@@ -1,0 +1,85 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator "lcsc-kicad-chrome")
+  (symbol "SMBJ36A_C2921020"
+    (property "Reference" "U"
+      (id 0)
+      (at 0 5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SMBJ36A_C2921020"
+      (id 1)
+      (at 0 -5.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "easyeda2kicad:SMB_L4.5-W3.7-LS5.4-RD"
+      (id 2)
+      (at 0 -7.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/C2921020.pdf"
+      (id 3)
+      (at 0 -10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Agertech(艾吉芯)"
+      (id 4)
+      (at 0 -12.70 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "SMBJ36A"
+      (id 5)
+      (at 0 -15.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part" "C2921020"
+      (id 6)
+      (at 0 -17.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Imported from LCSC"
+      (id 9)
+      (at 0 -20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SMBJ36A_C2921020_0_1"
+      (pin unspecified line
+        (at 10.16 -1.27 180)
+        (length 5.08)
+        (name "A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 0.00 -1.27 0)
+        (length 5.08)
+        (name "K" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (polyline
+        (pts (xy 4.57 -2.54) (xy 5.08 -2.54))
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 5.08 -1.27))
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 -1.27) (xy 5.08 0.00))
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 5.08 0.00) (xy 5.84 0.00))
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 7.62 0.00) (xy 5.08 -1.27) (xy 7.62 -2.54) (xy 7.62 0.00))
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+    )
+  )
+)
